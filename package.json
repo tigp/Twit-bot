@@ -1,0 +1,23 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple personal bot using the Twitter API",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tigp/Twit-bot.git"
+  },
+  "author": "kirill kuznetsov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tigp/Twit-bot/issues"
+  },
+  "homepage": "https://github.com/tigp/Twit-bot#readme",
+  "dependencies": {
+    "twitter-api-v2": "^1.12.9"
+  }
+}
