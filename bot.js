@@ -2,9 +2,9 @@
 
 import { TwitterApi } from 'twitter-api-v2';
 
-const apiKey = 'jXTc6XZC8f9M0evMMgvb6jAjj';
-const apiKeySecret = 'zkG123jTMtqothcxrx3cgu4tyQEmqragmvbgqTU1v3JDwxZJH6';
-const bearerToken = 'AAAAAAAAAAAAAAAAAAAAADZqkQEAAAAAnJcxy4BPBkihlWs4vYvhTJfn%2Fjg%3DE1NybL7O4sNu4uFkIk52HTyQeVeSQlVl3HBLFyH9qcEePEYlAi';
+// const apiKey = process.env.API_KEY;
+// const apiKeySecret = process.env.API_KEY_SECRET;
+// const bearerToken = process.env.BEARER_TOKEN;
 
 const test = async (bearerToken) => {
   const client = new TwitterApi(bearerToken);
