@@ -1,2 +1,2 @@
-twit:
-		node bot.js
+send:
+	node index.js
